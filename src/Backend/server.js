@@ -25,6 +25,7 @@ app.get('/', async (req, res) => {
         res.status(500).json({ error: "Internal Server Error" });
     }
 });
+
 app.listen(3000, () => {
     console.log("Server is listening on port 3000");
 });
